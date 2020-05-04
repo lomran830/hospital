@@ -1,0 +1,42 @@
+/*First Sectiom*/
+@media(min-width:359px){
+	.nav button.navbar-toggle.collapsed {
+    	margin-top: 25px !important;
+}}
+@media(min-width:428px){
+	@media(max-width:767px){
+	.nav button.navbar-toggle.collapsed {
+    	margin-top: 19px !important;
+	}}
+}
+	@media(max-width:767px){
+		div#bs-example-navbar-collapse-1 {
+    	background-color:#0A3F4F 
+	}
+	ul.nav.navbar-nav.pull-right.center-block{
+		    float: left !important;
+	}
+}
+@media(max-width: 584px){.video .embed-responsive-item{width:459px;}}
+@media(min-width: 991px){
+	@media(max-width:1153px){
+		.video .embed-responsive-item{width:459px;margin-left: -19px;}
+	}
+}
+
+@media(max-width: 1200px){
+.info{height: auto}
+.solution  .info_patient{margin-left: 0}
+.solution .info_patient p{width: 455px}
+}
+@media(max-width: 1199px){.solution{text-align: center;}}
+@media(max-width: 992px){
+	.solution  .info_patient p{width:67%;margin-left: auto;margin-right: auto;}
+
+}
+
+@media(max-width: 767px){
+	.choose .collect{
+		text-align: center;
+	}
+}
